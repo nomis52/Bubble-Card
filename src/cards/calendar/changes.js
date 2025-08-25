@@ -10,7 +10,7 @@ function dateDiffInMinutes(a, b) {
   return Math.floor((b - a) / MS_PER_MINUTES);
 }
 
-function parseEventDateTime(event) {
+export function parseEventDateTime(event) {
   if (event.date) {
     const parts = event.date.split('-');
     const year = parseInt(parts[0], 10);
