@@ -1,4 +1,4 @@
-import { parseEventDateTime } from './changes.js';
+import { parseEventDateTime } from './helpers.js';
 
 describe('parseEventDateTime', () => {
   test('should parse all-day events with date property', () => {
